@@ -8,7 +8,7 @@ require ('dotenv').config();
 const app= express();
 //Node Server
 const server = require('http').createServer(app);
-module.exports.io = require("socket.io")(server);
+module.exports.io = require('socket.io')(server);
 
 
 require('./socket/sockets.js');//Mensajes de sockets

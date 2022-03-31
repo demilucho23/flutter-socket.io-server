@@ -11,7 +11,7 @@ const server = require('http').createServer(app);
 module.exports.io = require('socket.io')(server);
 
 
-require('./socket/sockets.js');//Mensajes de sockets
+require('./socket/sockets');//Mensajes de sockets
 
 
 
